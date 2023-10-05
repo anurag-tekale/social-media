@@ -26,10 +26,10 @@ const Rightbar = () => {
       }}
     >
       <Box position={"fixed"} width={"25%"}>
-        <Typography variant="h6" fontWeight={100}>
+        <Typography variant="h6" fontWeight={400}>
           Online Friends
         </Typography>
-        <AvatarGroup max={8}>
+        <AvatarGroup max={10}>
           <Avatar
             alt="Remy Sharp"
             src="https://images.pexels.com/photos/14309988/pexels-photo-14309988.jpeg"
@@ -66,30 +66,30 @@ const Rightbar = () => {
           <Avatar alt="Trevor Henderson" src="" />
           <Avatar alt="Trevor Henderson" src="" />
         </AvatarGroup>
-        <Typography variant="h6" fontWeight={100} mb={1} mt={5}>
+        <Typography variant="h6" fontWeight={400} mb={1} mt={5}>
           Latest Pictures
         </Typography>
         <ImageList cols={3} rowHeight={"20%"} gap={5}>
           <ImageListItem>
             <img
-              src="https://images.pexels.com/photos/3547176/pexels-photo-3547176.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              src="https://images.pexels.com/photos/18418642/pexels-photo-18418642/free-photo-of-budding-water-lily.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt=""
             />
           </ImageListItem>
           <ImageListItem>
             <img
-              src="https://images.pexels.com/photos/3547176/pexels-photo-3547176.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              src="https://images.pexels.com/photos/18036573/pexels-photo-18036573/free-photo-of-light-sea-city-nature.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt=""
             />
           </ImageListItem>
           <ImageListItem>
             <img
-              src="https://images.pexels.com/photos/3547176/pexels-photo-3547176.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              src="https://images.pexels.com/photos/18361554/pexels-photo-18361554/free-photo-of-headlight-of-volkswagen-beetle.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt=""
             />
           </ImageListItem>
         </ImageList>
-        <Typography variant="h6" fontWeight={100} mt={5}>
+        <Typography variant="h6" fontWeight={400} mt={5}>
           Latest Conversations
         </Typography>
         <List
@@ -97,10 +97,13 @@ const Rightbar = () => {
         >
           <ListItem alignItems="flex-start">
             <ListItemAvatar>
-              <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+              <Avatar
+                alt=""
+                src="https://images.pexels.com/photos/6605397/pexels-photo-6605397.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              />
             </ListItemAvatar>
             <ListItemText
-              primary="Brunch this weekend?"
+              primary="Food Business?"
               secondary={
                 <React.Fragment>
                   <Typography
@@ -109,9 +112,9 @@ const Rightbar = () => {
                     variant="body2"
                     color="text.primary"
                   >
-                    Ali Connors
+                    Anurag
                   </Typography>
-                  {" — I'll be in your neighborhood doing errands this…"}
+                  {" — We can discuss about it, I'll calculate the expenses…"}
                 </React.Fragment>
               }
             />
@@ -119,10 +122,13 @@ const Rightbar = () => {
           <Divider variant="inset" component="li" />
           <ListItem alignItems="flex-start">
             <ListItemAvatar>
-              <Avatar alt="Travis Howard" src="/static/images/avatar/2.jpg" />
+              <Avatar
+                alt=""
+                src="https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              />
             </ListItemAvatar>
             <ListItemText
-              primary="Summer BBQ"
+              primary="Open Source"
               secondary={
                 <React.Fragment>
                   <Typography
@@ -131,9 +137,9 @@ const Rightbar = () => {
                     variant="body2"
                     color="text.primary"
                   >
-                    to Scott, Alex, Jennifer
+                    to everyone
                   </Typography>
-                  {" — Wish I could come, but I'm out of town this…"}
+                  {" — Wish I could push the code, but I'm out of town…"}
                 </React.Fragment>
               }
             />
@@ -141,10 +147,13 @@ const Rightbar = () => {
           <Divider variant="inset" component="li" />
           <ListItem alignItems="flex-start">
             <ListItemAvatar>
-              <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
+              <Avatar
+                alt=""
+                src="https://images.pexels.com/photos/732632/pexels-photo-732632.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              />
             </ListItemAvatar>
             <ListItemText
-              primary="Oui Oui"
+              primary="Hiking"
               secondary={
                 <React.Fragment>
                   <Typography
@@ -153,9 +162,9 @@ const Rightbar = () => {
                     variant="body2"
                     color="text.primary"
                   >
-                    Sandra Adams
+                    MakeMyTrip
                   </Typography>
-                  {" — Do you have Paris recommendations? Have you ever…"}
+                  {" — Tickets confirmed, check your mail for the invoice…"}
                 </React.Fragment>
               }
             />
